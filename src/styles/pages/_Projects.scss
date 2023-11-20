@@ -1,0 +1,70 @@
+.projectsMainContainer{
+    width: 100%;
+    height: fit-content;
+
+    .imageMain{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+
+
+        .imagenCentroInvestigaciones{
+            width: 100%;
+        }
+        .projectTitle{
+            position: absolute;
+            bottom: 50%;
+            left: 8%;
+            color:white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        
+    }
+    .proyectsContainer{
+        transform: translateY(-8.5vw);
+        background-color: white;
+        width: 90%;
+        margin: 0 auto;
+        box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.1), -5px 0 5px -5px rgba(0, 0, 0, 0.1);
+        height: fit-content;
+
+        .proyectsIntroduction{
+            width: 100%;
+            min-height: 40px;
+            height: fit-content;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-weight: 400;
+            background: $primaryColor;
+            color: white;
+            text-align: center;
+            font-size: 1rem;
+        }
+        .facultadFilter{
+            width: 80%;
+            height: fit-content;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 50px 10% 0 10%;
+            
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .projectsMainContainer{
+
+
+        .proyectsContainer{
+
+            .facultadFilter{
+                width: 100%; 
+                margin: 0;
+
+            }
+        }
+    }
+}

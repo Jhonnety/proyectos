@@ -1,0 +1,10 @@
+@import './base/settings';
+@import './base/animations';
+//Components
+@import './components/Header';
+@import './components/Filter';
+@import './components/ProjectsList';
+@import './components/Footer';
+@import './components/ProjectPreview';
+//pages
+@import './pages/Projects';
