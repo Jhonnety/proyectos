@@ -1,11 +1,11 @@
-import { useLocation } from "react-router-dom";
-import queryString from 'query-string'
+//import { useLocation } from "react-router-dom";
+//import queryString from 'query-string'
 import { ProjectPreview } from ".";
 
 export const ProjectsList = () => {
 
-    const location = useLocation();
-    const { filter = '' } = queryString.parse(location.search);
+    //const location = useLocation();
+    //const { filter = '' } = queryString.parse(location.search);
 
   return (
     <div className="projectsListMainContainer">
