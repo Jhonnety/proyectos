@@ -49,5 +49,5 @@ export interface Project {
     "ADSCRIPCION_TIPO_2": string | null,
     "ADSCRIPCION_3": string | null,
     "ADSCRIPCION_TIPO_3": string | null,
-    "OBJETIVOS DE DESARROLLO SOSTENIBLE QUE RESPALDA":  string | null,
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE":  string | null,
 }

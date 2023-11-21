@@ -7,7 +7,8 @@ interface ProjectPreviewProps {
 export const ProjectPreview : React.FC<ProjectPreviewProps> = ({ project }) => {
   
   const handleProjectPreview = ()=>{
-    console.log(project)
+    window.alert(JSON.stringify(project));
+
   }
   
   return (

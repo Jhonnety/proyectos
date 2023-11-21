@@ -9,7 +9,7 @@ interface FilterProps {
 }
 
 
-export const Filter : React.FC<FilterProps> = ({filterName, classIcon, faculdTitle, color }) => {
+export const FilterItem : React.FC<FilterProps> = ({filterName, classIcon, faculdTitle, color }) => {
 
   const location = useLocation();
   const { filter = '' } = queryString.parse(location.search);
