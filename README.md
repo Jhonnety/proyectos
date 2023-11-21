@@ -7,3 +7,6 @@
 
 --To install query-string
     pnpm install query-string
+
+--To install react-lazyload
+    pnpm install --save react-lazyload

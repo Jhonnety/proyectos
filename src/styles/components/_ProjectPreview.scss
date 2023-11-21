@@ -1,18 +1,53 @@
-.ProjectPreviewContainer{
+.ProjectPreviewContainer {
     width: 350px;
     border-radius: 20px;
     background: #dfdfdf7d;
     height: fit-content;
     min-height: 400px;
     margin: 20px;
+    position: relative;
+    cursor: pointer;
 
-    .ProjectPreviewImagen{
+    .ProjectPreviewImagen {
         width: 100%;
-        border-radius: 20px 20px 0 0 ;
+        border-radius: 20px 20px 0 0;
     }
-    .ProjectPreviewTitle{
+
+    .ProjectPreviewTitle {
         width: 84%;
         font-size: 1rem;
         margin: 20px 8%;
+    }
+
+    .backgrounGray{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 20px;
+    }
+    .backgrounGray:hover{
+        background-color: rgba(211, 211, 211, 0.5);
+    }
+}
+.ProjectPreviewContainer:hover{
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 990px) {
+    .ProjectPreviewContainer {
+
+        .ProjectPreviewTitle {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .ProjectPreviewContainer {
+        width: 100%;
+        margin: 20px 0;
     }
 }

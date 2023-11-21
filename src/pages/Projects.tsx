@@ -55,14 +55,14 @@ export const Projects = () => {
           faculdTitle='Ingenierías y Arquitectura'/>
 
           <Filter 
-          color='#136D30'
+          color='#57A432'
           filterName='ciencias_sociales_salud_y_bienestar'
           classIcon='fa-light fa-head-side-brain' 
           faculdTitle='Ciencias Sociales, Salud y Bienestar'/>
 
           <Filter 
           color='#136D30'
-          filterName='centros_regionaes'
+          filterName='centros_regionales'
           classIcon='fa-regular fa-map-location-dot' 
           faculdTitle='Centros regionales'/>
 

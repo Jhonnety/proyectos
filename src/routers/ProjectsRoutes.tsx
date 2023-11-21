@@ -13,7 +13,7 @@ export const ProjectsRoutes = () => {
             <Route path="/proyectos" element={<Projects />} />
             <Route path="/contacto" element={<Contact />} />
             <Route path="/otros" element={<Others />} />
-            <Route path="/*" element={<Navigate to="/start" />} />
+            <Route path="/*" element={<Navigate to="/inicio" />} />
    
         </Routes>
         <Footer/>

@@ -1,14 +1,20 @@
+import { Project } from "../models/ProjectModel"
 
 interface ProjectPreviewProps {
-    url: string,
-    title:string,
+  project: Project
 }
 
-export const ProjectPreview : React.FC<ProjectPreviewProps> = ({ url, title }) => {
+export const ProjectPreview : React.FC<ProjectPreviewProps> = ({ project }) => {
+  
+  const handleProjectPreview = ()=>{
+    console.log(project)
+  }
+  
   return (
-    <div className="ProjectPreviewContainer">
-        <img className="ProjectPreviewImagen" src={url} alt="Portada del proyecto"/>
-        <h2 className="ProjectPreviewTitle">{title}</h2>
+    <div className="ProjectPreviewContainer" onClick={handleProjectPreview}>
+        <div className="backgrounGray"></div>
+        <img loading="lazy" className="ProjectPreviewImagen" src={project.IMAGEN+""} alt="Portada del proyecto"/>
+        <h2 className="ProjectPreviewTitle">{project.NOMBRE_PROYECTO}</h2>
     </div>
   )
 }

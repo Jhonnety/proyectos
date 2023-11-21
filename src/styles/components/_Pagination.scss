@@ -1,0 +1,72 @@
+.paginationContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .paginatorItem {
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        color: $primaryColor;
+        font-weight: bold;
+        background: none;
+        border: none;
+        border-radius: 50%;
+        margin: 0 5px;
+        padding: 15px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paginatorItem:hover {
+        background-color: #dfdfdf7d;
+    }
+
+    .activeItemPaginator {
+        background-color: #dfdfdf7d;
+    }
+}
+
+.btnPaginator {
+    height: 25px;
+    width: auto;
+    cursor: pointer;
+    color: $primaryColor;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-radius: 14px;
+    margin: 0 5px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        margin: 0 5px;
+        font-size: 1.3rem;
+        transform: translateY(0.1rem);
+    }
+}
+
+.btnPaginator:hover {
+    background-color: #dfdfdf7d;
+}
+
+@media (max-width: 500px) {
+    .ProjectPreviewContainer {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .btnPaginator {
+        span{
+            display: none;
+        }
+    }
+}
