@@ -1,7 +1,7 @@
 export interface Project {
-    "ID_PROYECTO": number | null,
-    "IMAGEN":  string | null,
-    "NOMBRE_PROYECTO": string | null,
+    "ID_PROYECTO": number,
+    "IMAGEN":  string,
+    "NOMBRE_PROYECTO": string,
     "RESUMEN":  string | null,
     "OBJETIVO":  string | null,
     "GRUPO_INVESTIGACION_1": string | null,

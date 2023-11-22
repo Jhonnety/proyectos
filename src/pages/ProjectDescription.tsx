@@ -67,13 +67,13 @@ export const ProjectDescription = () => {
                 <div className="informationProjectContainer">
                   <h3>Resumen:</h3>
                   <p>{project.RESUMEN}</p>
-                  <h3>Objetivo:</h3>
+                  <h3 className="marginTop">Objetivo:</h3>
                   <p>{project.OBJETIVO}</p>
 
                 </div>
               </div>
 
-              <div className="abscriptionsContainer">
+              <div className="adscriptionsContainer">
                 <div className="researchersGroupsContainer">
                   <h3>Grupos de investigacion: </h3>
 
@@ -91,7 +91,7 @@ export const ProjectDescription = () => {
                     })
                   }
 
-                  <h3 className="researchersTitle">Investidores: </h3>
+                  <h3 className="marginTop">Investidores: </h3>
                   {[...Array(11).keys()].map((index: number) => {
                     const researcher_key = `ADSCRIPCION_${index + 1}` as keyof Project;
                     const kind_researcher_key = `ADSCRIPCION_TIPO_${index + 1}` as keyof Project;
@@ -112,8 +112,8 @@ export const ProjectDescription = () => {
                   })}
 
                 </div>
-                <div className="abscriptions">
-                  <h3>Abscripciones: </h3>
+                <div className="adscriptions">
+                  <h3>Adscripciones: </h3>
                   {[...Array(11).keys()].map((index: number) => {
                     const programKey = `PROGRAMA_${index + 1}` as keyof Project;
                     const unitKey = `PROGRAMA_UNIDAD_${index + 1}` as keyof Project;
@@ -152,7 +152,7 @@ export const ProjectDescription = () => {
 
 
                 </div>
-              
+
               </div>
 
             </div>
@@ -172,13 +172,3 @@ export const ProjectDescription = () => {
     </>
   );
 }
-/*
-Así sería. El título, 
-la misma imagen que ponemos en el sheet,
- el objetivo, 
- 
- los programas a los que está adscrito con sus facultades.
-
-Los investigadores (dejar espacio por si hay que poner una imagen) 
-  y la imagen del ODS.
-*/

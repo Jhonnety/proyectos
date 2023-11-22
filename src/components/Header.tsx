@@ -28,7 +28,7 @@ export const Header = () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
-    
+
     return (
         <nav className="navbarProjects">
 
@@ -52,11 +52,6 @@ export const Header = () => {
 
 
                         <ul className='navbarMainMenu'>
-                            <NavLink
-                                className={({ isActive }: any) => `${isActive ? 'active linkNavbar' : 'linkNavbar'}`}
-                                to="/inicio"
-                                onClick={() => toggleNav(true)}
-                            >Inicio</NavLink>
 
                             <NavLink
                                 className={({ isActive }: any) => `${isActive ? 'active linkNavbar' : 'linkNavbar'}`}
@@ -64,26 +59,15 @@ export const Header = () => {
                                 onClick={() => toggleNav(true)}
                             >Proyectos</NavLink>
 
-                            <NavLink
-                                className={({ isActive }: any) => `${isActive ? 'active linkNavbar' : 'linkNavbar'}`}
-                                to="/contacto"
-                                onClick={() => toggleNav(true)}
-                            >Contact</NavLink>
-
-                            <NavLink
-                                className={({ isActive }: any) => `${isActive ? 'active linkNavbar' : 'linkNavbar'}`}
-                                to="/otros"
-                                onClick={() => toggleNav(true)}
-                            >Otros</NavLink>
                         </ul>
 
                         <ul className='socialMediaNavbarContainer'>
-                            <i className="fa-brands fa-instagram"></i>
-                            <i className="fa-brands fa-facebook"></i>
-                            <i className="fa-brands fa-youtube"></i>
-                            <i className="fa-brands fa-twitter"></i>
-                            <i className="fa-brands fa-flickr"></i>
-                            <i className="fa-brands fa-spotify"></i>
+                            <a href='https://www.instagram.com/ucatolicaluisamigo/' target="_blank"><i className="fa-brands fa-instagram"></i></a>
+                            <a href='https://www.facebook.com/ucatolicaluisamigo' target='_blank'><i className="fa-brands fa-facebook"></i></a>
+                            <a href='https://www.youtube.com/ucatolicaluisamigo' target='_blank'><i className="fa-brands fa-youtube"></i></a>
+                            <a href='https://twitter.com/uluisamigo' target='_blank'><i className="fa-brands fa-twitter"></i></a>
+                            <a href='https://www.flickr.com/photos/funlam' target='_blank'><i className="fa-brands fa-flickr"></i></a>
+                            <a href='https://open.spotify.com/show/32Z1RqCtlkpLEcheYpZkuv' target='_blank'><i className="fa-brands fa-spotify"></i></a>
                         </ul>
                     </div>
                 }

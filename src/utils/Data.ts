@@ -3713,7 +3713,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4188,
-    "IMAGEN": null,
+    "IMAGEN": "https://cdn.pixabay.com/photo/2021/03/29/20/13/huila-6135202_640.jpg",
     "NOMBRE_PROYECTO": "Una herramienta de gestión para los proyectos productivos por las mujeres de la vereda La Florida del Municipio del Carmen de Viboral Antioquia.",
     "RESUMEN": "De acuerdo a la condiciones actuales es necesario establecer cómo las mujeres campesinas que tienen proyectos productivos colaborativos en el caso específico de las mujeres de la vereda La Florida del Municipio del Carmen de Viboral, Antioquia con el fin de ejecutar un plan de capacitación orientado en las necesidades especificas de los grupos productivos que en este caso tienen acceso limitado al conocimiento formal y a la educación universitaria.",
     "OBJETIVO": "Diseñar una herramienta de gestión para los proyectos productivos por las mujeres de la vereda La Florida del Municipio del Carmen de Viboral Antioquia.",
@@ -3766,7 +3766,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4084,
-    "IMAGEN": null,
+    "IMAGEN": "https://cdn.pixabay.com/photo/2013/10/31/14/10/tank-203496_640.jpg",
     "NOMBRE_PROYECTO": "Uso de la fuerza aplicable a los conflictos armados y a otros contexto de violencia en Colombia, a partir de la firma del Acuerdo de Paz suscrito entre el Gobierno Nacional y las FARC-EP, 2016",
     "RESUMEN": "El Acuerdo de Paz, 2016, generó expectativas sobre la disminución de la violencia y enfrentamientos en territorio colombiano. Sin embargo, la situación humanitaria de los últimos años demuestra lo contrario. Actualmente, se desarrollan 7 conflictos armados y se evidencian otros contextos de violencia que exigen una respuesta estatal, la cual debe ser aplicada en apego a las normas internacionales sobre el uso de la fuerza.",
     "OBJETIVO": "Contrastar los estándares internacionales de uso de la fuerza con el marco jurídico interno aplicable a los conflictos armados y a otros contexto de violencia que se presentan en Colombia, 2016-2023. ",
@@ -3819,7 +3819,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4210,
-    "IMAGEN": null,
+    "IMAGEN": "https://cdn.pixabay.com/photo/2021/07/16/11/27/scale-6470584_640.jpg",
     "NOMBRE_PROYECTO": "Ética de la autenticidad Vs Ética deontologica- Fase II",
     "RESUMEN": "Se pretende hacer un análisis de la predominancia de la ética moral, afinada en normas morales, desde la perspectiva Kantiana y la ilustración de una moral utilitarista introducida por Jeremy Bentham, es decir una perspectiva deontológica frente a la teoría de Taylor y la ética de la autenticidad",
     "OBJETIVO": "Conocer la producción en temas éticos desde la perspectiva meramente deontológica y como contribuye a la formación profesional",
@@ -3872,7 +3872,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4212,
-    "IMAGEN": null,
+    "IMAGEN": "https://cdn.pixabay.com/photo/2019/08/06/22/48/artificial-intelligence-4389372_640.jpg",
     "NOMBRE_PROYECTO": "Simulación de disfunción neurocognitiva ",
     "RESUMEN": "En la presente investigación se pretende analizar el desempeño neurocognitivo de pacientes con trauma craneoencefálico, candidatos a una pensión por invalidez con y sin diagnóstico de disfunción neurocognitiva que se encontraban activos laboralmente",
     "OBJETIVO": "Analizar el desempeño neurocognitivo de pacientes con trauma craneoencefálico candidatos a una pensión por invalidez con y sin diagnóstico de disfunción neurocognitiva",
@@ -3925,7 +3925,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 9999,
-    "IMAGEN": null,
+    "IMAGEN": "https://cdn.pixabay.com/photo/2018/03/10/12/34/economy-3213967_640.jpg",
     "NOMBRE_PROYECTO": "Identificación de los beneficios de la denominación de origen protegida en Colombia para las empresas en proceso de internacionalización",
     "RESUMEN": "La Denominación de Origen Protegida, es un reconocimiento dada por una organización a ciertos productos que gozan de características propias atribuibles a un lugar de procedencia o técnicas tradicionales de producción, las cuales generan interés en los consumidores, mejoran las posibilidades de acceso a otros mercados",
     "OBJETIVO": "Identificar los beneficios percibidos por los productores de aquellos productos que gozan de esta denominación en temas de internacionalización, protección intelectual y, desarrollo económico para el territorio donde se ubican, que permita el planteamiento de estrategias de consolidación en mercados internacionales",
@@ -3978,7 +3978,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4226,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2016/11/19/21/01/analysis-1841158_640.jpg",
     "NOMBRE_PROYECTO": "Memorias de la gráfica popular y la rotulación manual en el centro-norte de Medellín - Fase II",
     "RESUMEN": "A partir del proceso logrado en el año 2023 con la recolección de muestras y registro fotográfico de imagen gráfica popular y rotulación manual en la zona centro norte de Medellín, se propone una extensión del proyecto que permita cubrir las comunas 6, 7, 12, 13 y 16, donde también se han identificado formas de expresión publicitaria creadas manualmente",
     "OBJETIVO": "Nutrir y consolidar un producto editorial con el registro recogido hasta el momento y complementarlo con el estudio de las muestras que existan en las comunas 12, 13, 7 y 16 de Medellín, para así, extender el alcance del proyecto de investigación y aportar de manera mas completa a la memoria visual y estética de la ciudad",
@@ -4031,7 +4031,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4225,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_640.jpg",
     "NOMBRE_PROYECTO": "Protocolo de Integración de aplicaciones de inteligencia artificial generativa a los procesos de enseñanza-aprendizaje de los cursos de Redacción y Ortografía y Producción de Texto Escrito del Programa de Comunicación Social",
     "RESUMEN": "Esta investigación se enfoca en la integración ética y efectiva de aplicaciones de inteligencia artificial generativa (IAG) en los cursos de Redacción y Ortografía y Producción de Texto Escrito del Programa de Comunicación Social.",
     "OBJETIVO": "Diseñar un protocolo de integración de aplicaciones de inteligencia artificial generativa a los procesos de enseñanza-aprendizaje de competencias escriturales de los cursos de Redacción y Ortografía y Producción de Texto Escrito del Programa de Comunicación Social, con el fin de aportar a la adquisición de habilidades de escritura y a la reducción de plagio, falta de originalidad y afectaciones al desarrollo académico de los estudiantes por el mal uso de esta tecnología",
@@ -4084,7 +4084,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4224,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2013/04/19/01/15/university-105709_640.jpg",
     "NOMBRE_PROYECTO": "Apropiación del componente conceptual e investigativo de la Publicidad Social en la Universidad Católica Luis Amigó: caso estudiantes del programa de Publicidad – sede Medellín",
     "RESUMEN": "Este proyecto de investigación tiene como objetivo principal explorar la apropiación teórica de la Publicidad Social desde los Componentes Conceptual e Investigativo en estudiantes del programa de Publicidad de la Universidad Católica Luis Amigó durante el primer semestre del año 2024",
     "OBJETIVO": "Explorar la apropiación teórica de la Publicidad Social en estudiantes del programa de Publicidad desde sus Componentes Conceptual e Investigativo de la Universidad Católica Luis Amigó durante el primer semestre del año 2024",
@@ -4137,7 +4137,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4223,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2015/02/01/18/26/hammer-620009_640.jpg",
     "NOMBRE_PROYECTO": "Los retos en la formación de los estudiantes de pregrado en derecho: un análisis desde las reformas introducidas por la ley 1905 de 2018",
     "RESUMEN": "El ejercicio del derecho y la posibilidad de representar a cualquier persona ante la rama judicial, requiere del cumplimiento de unos requisitos previos contenidos en el Decreto Ley 196 de 1971, complementado por la ley 1905 de 2018. Esta última norma del año 2018, agregó un componente adicional para habilitar a quienes están próximos a recibir su título de abogados, consistente en la presentación de una prueba escrita, la cual debe ser superada para que el Consejo Superior de la Judicatura, expida la tarjeta profesional",
     "OBJETIVO": "Analizar los retos de las instituciones de educación superior en los programas de derecho, de cara a la formación de los estudiantes en la preparación para la prueba habilitante de abogados, de cara a la implementación de la ley 1905 de 2018",
@@ -4190,7 +4190,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4222,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2015/10/12/18/29/manizales-984916_640.jpg",
     "NOMBRE_PROYECTO": "La aprehensión de la competencia sociocultural en los estudiantes de Negocios Internacionales del CR Manizales de la Universidad Católica Luis Amigó",
     "RESUMEN": "Este proyecto pretende identificar elementos fundamentales en la interacción con hablantes de otras culturas para minimizar las interferencias comunicativas y mejorar la negociación y el entendimiento cultural",
     "OBJETIVO": "Definir cómo se desarrolla la competencia sociocultural en los estudiantes de nivel intermedio (B1-B2) de Negocios Internacionales de CR Manizales de la Universidad Católica Luis Amigó",
@@ -4243,7 +4243,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4221,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2016/03/26/17/47/smiling-1280975_640.jpg",
     "NOMBRE_PROYECTO": "Percepción de los docentes sobre la formación en competencias en una segunda lengua apoyadas en TIC de la Facultad de Ciencias Administrativas, Económicas y Contables de la Universidad Católica Luis Amigó",
     "RESUMEN": "El presente trabajo busca conocer la percepción de los docentes de la facultad de Ciencias Administrativas, Económicas y Contables, sobre la formación recibida en el dominio de una segunda lengua; como parte de la cualificación para el desarrollo de habilidades e interacción con otras comunidades hispanohablantes y desde luego como requisito para ascender en el escalafón docente",
     "OBJETIVO": "Analizar la percepción de los docentes de la Facultad de Ciencias Administrativas, Económicas y Contables de la Universidad Católica Luis Amigó sobre la formación en competencias en una segunda lengua apoyadas en Tecnologías de la Información y la Comunicación (TIC)",
@@ -4296,7 +4296,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4220,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2020/01/22/09/39/teacher-4784916_640.jpg",
     "NOMBRE_PROYECTO": "Narrativas transmedias para el acompañamiento educativo de niños y niñas entre los 7-11 años de la Fundación Clínica Noel (Medellín) con diagnóstico de paladar hendido o labio fisurado y la proyección social de los estudiantes de práctica IX de la Licenciatura de educación infantil de la Universidad Católica Luis Amigó en el año 2024",
     "RESUMEN": "Pretende caracterizar a través de las narrativas transmedias el acompañamiento educativo de niños y niñas entre los 7-11 años de la Fundación Clínica Noel (Medellín) con diagnóstico de paladar hendido o labio fisurado y la proyección social de los estudiantes de práctica IX de la Licenciatura de Educación Infantil de la Universidad Católica Luis Amigó en el año 2024, para diseñar una propuesta pedagógica a partir del desarrollo de las habilidades comunicativas y el pensamiento matemático que fortalezca el acompañamiento al proceso educativo desde la proyección social del docente en educación infantil. Dicha investigación tiene un corte cualitativo con enfoque interpretativo de orden fenomenológico, donde la población nombrada anteriormente es el eje fundamental de toda la investigación.",
     "OBJETIVO": "Caracterizar a través de las narrativas transmedias el acompañamiento educativo de niños y niñas entre los 7-11 años de la Fundación Clínica Noel (Medellín) con diagnóstico de paladar hendido o labio fisurado y la proyección social de los estudiantes de práctica IX de la Licenciatura de educación infantil de la Universidad Católica Luis Amigó en el año 2024",
@@ -4349,7 +4349,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4215,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2013/07/18/10/56/graph-163509_640.jpg",
     "NOMBRE_PROYECTO": "Evolución de la pieza gráfica utilizada por las entidades culturales, en la década del sesenta al ochenta en Colombia, de elemento de comunicación a producto estético gracias a la práctica coleccionista",
     "RESUMEN": "Se tiene como propósito la identificación de los factores y contextos que permiten que la pieza gráfica pase de ser el resultado de una actividad proyectual mediada por la necesidad de difusión de un evento artístico a convertirse en un producto estético que se expone y colecciona",
     "OBJETIVO": "Establecer como la pieza gráfica se transforma en un producto estético generador de identidad y qué percepción se tiene de esta cuando proviene de las estrategias de comunicación de entidades culturales y es resignificada desde la práctica coleccionista",
@@ -4402,7 +4402,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4214,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2019/01/30/07/45/web-3963945_640.jpg",
     "NOMBRE_PROYECTO": "Creatividad computacional: influencia e Impacto de la IA en el diseño y las artes visuales",
     "RESUMEN": "El presente proyecto de investigación se enfoca en comprender la influencia e impacto de la Inteligencia Artificial (IA) en el campo del diseño y las artes visuales, y su inserción en la sociedad contemporánea. Adoptando un enfoque hermenéutico, el estudio se centra en la interpretación y comprensión de las experiencias, percepciones y significados subyacentes relacionados con la IA en el proceso creativo y la apreciación del arte visual",
     "OBJETIVO": "Este proyecto de investigación tiene como objetivo principal explorar la transformación del proceso creativo en el arte y el diseño visual impulsada por la inteligencia artificial (IA) y examinar las implicaciones estéticas, conceptuales y sociales de esta convergencia tecnológica en el mundo del arte y el diseño visual contemporáneo",
@@ -4455,7 +4455,7 @@ export const data : Project[] = [
   },
   {
     "ID_PROYECTO": 4144,
-    "IMAGEN": "IMAGEN",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2018/05/13/14/52/boys-3396713_640.jpg",
     "NOMBRE_PROYECTO": "Variaciones discursivo-estratégicas de exclusión-inclusión familiar y educativa dirigidas a niños-niñas-adolescentes con extraedad escolar en la Institución Educativa Monseñor Francisco Cristóbal Toro",
     "RESUMEN": "Esta investigación se propone analizar las variaciones discursivo-estratégicas de exclusión-inclusión educativa dirigidas a niños-niñas-adolescentes con extraedad escolar en la Institución Educativa Monseñor Francisco Cristóbal Toro.",
     "OBJETIVO": "Analizar las variaciones discursivo-estratégicas de exclusión-inclusión educativa dirigidas a niños-niñas-adolescentes con extraedad escolar en la Institución Educativa Monseñor Francisco Cristóbal Toro",

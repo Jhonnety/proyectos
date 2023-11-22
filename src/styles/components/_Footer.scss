@@ -3,4 +3,13 @@
     height: 50px;
     background-color: $primaryColor;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    h1{
+        margin: auto;
+        font-weight: 600;
+        font-size: 2vmin;
+    }
 }

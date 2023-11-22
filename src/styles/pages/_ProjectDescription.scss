@@ -85,12 +85,12 @@
 
             p {
                 color: black;
-                font-size: 3vmin;
+                font-size: 2.5vmin;
             }
         }
     }
 
-    .abscriptionsContainer {
+    .adscriptionsContainer {
         width: 100%;
         height: fit-content;
         display: flex;
@@ -117,15 +117,12 @@
 
             p {
                 color: black;
-                font-size: 3vmin;
+                font-size: 2.5vmin;
             }
 
-            .researchersTitle {
-                margin-top: 20px;
-            }
         }
 
-        .abscriptions {
+        .adscriptions {
             width: 40%;
             height: fit-content;
 
@@ -144,7 +141,7 @@
 
             p {
                 color: black;
-                font-size: 3vmin;
+                font-size: 2.5vmin;
             }
         }
     }
@@ -209,6 +206,9 @@
     }
 }
 
+.marginTop {
+    margin-top: 20px;
+}
 
 @media (max-width: 1000px) {
     .projectBody {
