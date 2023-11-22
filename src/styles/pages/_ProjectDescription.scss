@@ -1,0 +1,230 @@
+.projectDescriptionMainContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+    .imageMain {
+        width: 100%;
+        height: fit-content;
+        position: relative;
+
+
+        .imagenCentroInvestigaciones {
+            width: 100%;
+        }
+
+        .projectTitle {
+            position: absolute;
+            bottom: 50%;
+            left: 8%;
+            font-size: 5vmin;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+        }
+
+    }
+
+    .proyectsContainer {
+        transform: translateY(-8.5vw);
+        background-color: white;
+        width: 90%;
+        margin: 0 auto;
+        box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.1), -5px 0 5px -5px rgba(0, 0, 0, 0.1);
+        height: fit-content;
+        border-bottom: 15px solid $primaryColor;
+
+        .proyectsIntroduction {
+            width: 100%;
+            min-height: 40px;
+            height: fit-content;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-weight: 600;
+            padding: 20px;
+            box-sizing: border-box;
+            background: $primaryColor;
+            color: white;
+            text-align: center;
+            font-size: 5vmin;
+        }
+
+    }
+
+}
+
+.projectBody {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px;
+
+    .videoObjectiveContainer {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-around;
+
+        img {
+            width: 40%;
+            background-size: cover;
+            height: auto;
+            aspect-ratio: 16/9;
+        }
+
+        .informationProjectContainer {
+            width: 40%;
+            height: fit-content;
+
+            h3 {
+                color: $primaryColor;
+                font-size: 4vmin;
+                font-weight: bold;
+            }
+
+            p {
+                color: black;
+                font-size: 3vmin;
+            }
+        }
+    }
+
+    .abscriptionsContainer {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        .researchersGroupsContainer {
+            width: 40%;
+            height: fit-content;
+
+
+            .line {
+                width: 100%;
+                height: 2px;
+                background-color: $primaryColor;
+                margin-top: 10px;
+            }
+
+            h3 {
+                color: $primaryColor;
+                font-size: 4vmin;
+                font-weight: bold;
+            }
+
+            p {
+                color: black;
+                font-size: 3vmin;
+            }
+
+            .researchersTitle {
+                margin-top: 20px;
+            }
+        }
+
+        .abscriptions {
+            width: 40%;
+            height: fit-content;
+
+            .line {
+                width: 100%;
+                height: 2px;
+                background-color: $primaryColor;
+                margin-top: 10px;
+            }
+
+            h3 {
+                color: $primaryColor;
+                font-size: 4vmin;
+                font-weight: bold;
+            }
+
+            p {
+                color: black;
+                font-size: 3vmin;
+            }
+        }
+    }
+
+    .odsContainer {
+        width: 90%;
+        margin: 20px 5% 0 5%;
+        height: fit-content;
+
+        h3 {
+            color: $primaryColor;
+            font-size: 4vmin;
+            font-weight: bold;
+        }
+
+        .ods {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            height: fit-content;
+
+            .odsItem{
+                height: 80px;
+                width: 80px;
+                margin: 10px;
+            }
+        }
+    }
+
+}
+
+
+
+.noProjectDescriptionMainContainer {
+    width: 100%;
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .titleNoExist {
+        font-size: 4rem;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .btnSeeProjects {
+        cursor: pointer;
+        background: none;
+        color: $primaryColor;
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        border-radius: 14px;
+        border: 1px solid $primaryColor;
+        font-weight: bold;
+    }
+
+    .btnSeeProjects:hover {
+        background: #dfdfdf7d;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .projectBody {
+        .videoObjectiveContainer {
+            display: block;
+            width: 100%;
+
+            img {
+                width: 90%;
+                margin: 0 5%;
+            }
+
+            .informationProjectContainer {
+                width: 90%;
+                margin: 20px 5% 0 5%;
+            }
+        }
+    }
+}

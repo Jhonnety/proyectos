@@ -1,7 +1,9 @@
 import { useLocation } from "react-router-dom";
 import queryString from 'query-string'
 import { ProjectPreview } from ".";
+
 import { data } from "../utils/Data";
+
 import LazyLoad from 'react-lazy-load';
 import { Project } from "../models/ProjectModel";
 import { useEffect, useState } from "react";
@@ -23,14 +25,14 @@ export const ProjectsList = () => {
     const location = useLocation();
     const queryParams = queryString.parse(location.search);
     const filterUrl = queryParams.filter || '';
-  
+    const pageUrl = queryParams.page || 1;
 
+    const [flag, setFlag] = useState(true)
     const [dataFiltered, setDataFiltered] = useState(data)
 
     
     const itemsPerPage = 9;
-    const [currentPage, setCurrentPage] = useState(1);
-  
+    const [currentPage, setCurrentPage] = useState(parseInt(pageUrl as string));
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
   
@@ -41,7 +43,7 @@ export const ProjectsList = () => {
     };
 
     useEffect(() => {
-      console.log(filterUrl)
+
       if(filterUrl == ''){
         setDataFiltered(data)
       }
@@ -73,7 +75,8 @@ export const ProjectsList = () => {
           }
         })
       }
-      setCurrentPage(1)
+      if(flag) setFlag(false)
+      else setCurrentPage(1)
     }, [filterUrl])
 
     return (

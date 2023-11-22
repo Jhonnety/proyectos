@@ -57,6 +57,9 @@
 .btnPaginator:hover {
     background-color: #dfdfdf7d;
 }
+.disabledButtom{
+    display: none;
+}
 
 @media (max-width: 500px) {
     .ProjectPreviewContainer {
