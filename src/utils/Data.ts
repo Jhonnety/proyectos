@@ -52,7 +52,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "lina.montoyasu@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4064,
@@ -105,7 +109,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "jorge.vasquezsa@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4090,
@@ -158,7 +166,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "jorge.jimenezro@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4165,
@@ -211,7 +223,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 1. Fin de la poblreza\nObjetivo 8. Crecimiento económico sostenible"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 1. Fin de la poblreza\nObjetivo 8. Crecimiento económico sostenible",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "martha.alzateca@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4122,
@@ -264,11 +280,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "juan.parraan@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4127,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2016/10/05/17/26/indian-1717192_1280.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2018/02/08/11/23/handshake-3139227_1280.jpg",
     "NOMBRE_PROYECTO": "Barreras sociopsicológicas para la construcción de paz en la Comuna 1 de Medellín",
     "RESUMEN": "Los conflictos intergrupales intratables, suelen originarse en torno a metas contradictorias, vistas por las partes implicadas como existenciales, violentas, de suma cero e irresolubles; suponen que las sociedades involucradas dedican gran cantidad de recursos a su continuación y duran, al menos, una generación. ",
     "OBJETIVO": "Identificar las barreras sociopsicológicas para la construcción de paz en la Comuna 1 de Medellín.",
@@ -317,7 +337,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "nicolasa.durandu@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4129,
@@ -370,7 +394,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "maria.correauq@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4083,
@@ -423,7 +451,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 11. Ciudades y asentamientos"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 11. Ciudades y asentamientos",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "jorge.vasquezsa@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4077,
@@ -476,7 +508,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 6. Disponibilidad de agua, su gestión sostenible y saneamiento"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 6. Disponibilidad de agua, su gestión sostenible y saneamiento",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "viviana.gomezce@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4141,
@@ -529,7 +565,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": "COLORADO AGUDELO JULIAN DAVID",
     "ADSCRIPCION_TIPO_3": "COINVESTIGADOR",
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "dubis.rinconba@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": "\nelizabet.ruizzu@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4149,
@@ -582,11 +622,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 12: Producción y consumo responsables."
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 12: Producción y consumo responsables.",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "jose.giraldoas@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "jose.villadalz@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4100,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2020/02/26/06/54/dispute-4880806_1280.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2015/05/11/21/33/human-763156_1280.jpg",
     "NOMBRE_PROYECTO": "COMO SI LOS HIJOS DE UNO NO VALIERAN NADA:  De la injusticia testimonial a la justicia narrativa en el derecho de víctimas. ",
     "RESUMEN": "“Como si los hijos de uno no valieran nada”, exclamaba con dolor una madre de Trujillo ante las puertas de los tribunales de Tuluá que le negaba su derecho a la verdad. En medio del teatro de impunidad que se prolongó durante dos décadas, esta investigación pretende comprender la tensión entre la injusticia testimonial a la que fueron expuestas las víctimas de Trujillo en el orden jurídico, y la justicia narrativa que éstas hicieron posible a partir de la experiencia estética. ",
     "OBJETIVO": "Comprender la tensión entre la injusticia testimonial y la justicia narrativa en el derecho de víctimas a partir de la experiencia de AFAVIT. ",
@@ -635,11 +679,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "jaime.pinedamu@4amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "richard.molinago@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4099,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2016/01/16/10/01/legal-1143114_1280.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2023/02/27/05/39/hand-7817478_1280.jpg",
     "NOMBRE_PROYECTO": "CON EL FUEGO PRIMERO DEL ALBA:  Transformaciones discursivas del “derecho a la rebelión” en tiempos de la justicia transicional en Colombia. ",
     "RESUMEN": "En las estribaciones de la cordillera central, un grupo de campesinos se declararon en resistencia y los rebeldes de Marquetalia entonaron por primera vez su himno guerrillero. Esta investigación busca comprender las transformaciones discursivas del “derecho a la rebelión” que legitimó su canto de lucha durante cinco décadas y terminó silenciado en el Acuerdo de Paz y en los ritos de la Justicia Transicional. ",
     "OBJETIVO": "Comprender las transformaciones discursivas del “derecho a la rebelión” en tiempos de la justicia transicional en Colombia.",
@@ -688,11 +736,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "jaime.pinedamu@4amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4078,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2016/11/08/05/11/children-1807511_1280.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2016/03/15/03/39/childrens-1256840_1280.jpg",
     "NOMBRE_PROYECTO": "Configuración del territorio desde el entramado relacional de los niños y niñas del barrio Sinaí (Comuna 2, Medellín)",
     "RESUMEN": "El Sinaí es un barrio a borde del rio Medellín, adscrito a la Comuna 2. Este territorio, configurado de manera irregular, con déficit de espacio público y con alto flujo de población desplazada, expresa diversidad de problemáticas psicosociales vinculadas a las violencias urbanas, la militarización de la vida cotidiana, el desalojo y el desplazamiento intraurbano",
     "OBJETIVO": "Comprender los sentidos del territorio que se configuran en el entramado relacional de los niños y niñas del barrio Sinaí (Comuna 2, Medellín)",
@@ -741,11 +793,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "heidi.pulidova@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4062,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2022/03/04/12/50/neuron-7047266_1280.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2018/05/08/08/50/artificial-intelligence-3382521_1280.jpg",
     "NOMBRE_PROYECTO": "Construcción de una red neuronal convolucional para la detección del cáncer cerebral",
     "RESUMEN": "El cáncer cerebral es una enfermedad ocasionada por tumores cerebrales malignos, los cuáles crecen rápidamente invadiendo las áreas sanas del cerebro. Las redes neuronales convolucionales se caracterizan por su gran precisión y por tener la capacidad de clasificar datos. Este proyecto de investigación busca construir una red neuronal convolucional para detectar la presencia de esta enfermedad a partir de imágenes de resonancias magnéticas (MRI).",
     "OBJETIVO": "Construir una red neuronal convolucional para la detección del cáncer cerebral haciendo uso de imágenes de resonancia magnética (MRI). ",
@@ -794,7 +850,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "victor.gilve@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4154,
@@ -847,7 +907,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 8: Crecimiento económico sostenible"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 8: Crecimiento económico sostenible",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "monica.lopeznt@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": "norbey.amaya@urosario.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4184,
@@ -900,11 +964,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria  \n"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria  \n",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "carlos.suarezqu@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4091,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2017/10/10/21/49/blogger-2838945_1280.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2020/11/10/21/00/boy-5731001_1280.jpg",
     "NOMBRE_PROYECTO": "DISEÑO DE UN MODELO PREDICTIVO DEL TRASTORNO POR DÉFICIT DE ATENCIÓN-HIPERACTIVIDAD",
     "RESUMEN": "Se ha reportado evidencia de diagnósticos poco certeros e incluso sobrediagnósticos del TDAH, debido a la variabilidad sintomática y la comorbilidad con otras psicopatologías. Las técnicas basadas en el AM brindan una mayor precisión en el diagnóstico temprano; se entrenarán y compararán siete modelos de AM, con la finalidad de identificar el que tiene mejor desempeño en las métricas (Accuracy-Recall-Precision-F1-Score). Un diagnóstico certero y temprano del TDAH mejora la calidad de vida.",
     "OBJETIVO": "Diseñar un modelo predictivo  del TDAH en población infante, haciendo uso del aprendizaje de máquinas (AM).",
@@ -953,11 +1021,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "catalina.quinterolo@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": "victor.gilve@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4137,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2019/09/12/08/45/pumpkin-4470981_1280.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2018/01/19/09/26/field-3092043_1280.jpg",
     "NOMBRE_PROYECTO": "Diseño e implementación de un software para toma de datos en imágenes multiespectrales agrícolas aplicando visión artificial.",
     "RESUMEN": "El desarrollo de una aplicación digital tipo software que permita la medición de parámetros relacionados con la vegetación en la agricultura y medio ambiente por medio de fotografías e imágenes multiespectrales que permita medir el NDVI (Índice Diferencial Normalizado de Vegetación). ",
     "OBJETIVO": "Diseñar un sistema de información aplicando herramientas de la Ingeniería de sistemas para verificar a través de un software el seguimiento a mediciones de variables multiespectrales derivadas de imágenes tomadas a frutos agrícolas que permitan realizar evaluación, monitoreo, prevención  y seguimiento a  las características propias de calidad del producto y un futuro comportamiento de próximas cosechas del agro enfocado a la región de Urabá.",
@@ -1006,11 +1078,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 6. Disponibilidad de agua, su gestión sostenible y saneamiento"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 6. Disponibilidad de agua, su gestión sostenible y saneamiento",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "andres.mamianji@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4110,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2019/11/28/02/28/boy-4658244_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2016/01/19/17/22/children-1149671_1280.jpg",
     "NOMBRE_PROYECTO": "Efecto modulador del funcionamiento ejecutivo adulto ante las secuelas emocionales del abuso sexual infantil en una muestra de adultos jóvenes de la ciudad de Manizales",
     "RESUMEN": "La presente investigación busca analizar el efecto modulador del funcionamiento ejecutivo en una muestra de adultos jóvenes de la ciudad de Manizales víctimas de abuso sexual en la infancia. Múltiples investigaciones han hallado secuelas emocionales, cognoscitivas y ejecutivas asociadas al abuso sexual, por lo que se buscará determinar, la manera como esta variable puede estar afectando la salud mental y calidad de vida de la población de Caldas.",
     "OBJETIVO": "Analizar el efecto modulador del funcionamiento ejecutivo en una muestra de adultos jóvenes entre 18 y 30 años de la ciudad de Manizales víctimas de abuso sexual en la infancia.",
@@ -1059,7 +1135,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "juan.betancurri@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "juan.palomaresgo@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4089,
@@ -1112,11 +1192,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "anyerspn.gomezta@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4172,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2017/09/27/01/22/fantasy-2790666_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2013/11/24/11/26/experiment-217201_1280.jpg",
     "NOMBRE_PROYECTO": "El Rol de la mujer en la ciencia como aporte en el desarrollo de la Ciencia la Tecnología y la Innovación CTI en Colombia \n",
     "RESUMEN": "A nivel mundial, se evidencia que las mujeres que optan por profesiones y trabajan en carreras de Ciencia, Tecnología, Innovación  Ingeniería y Matemáticas (que se denominan STEM) es todavía muy inferior a los hombres, de acuerdo, al informe de la UNESCO del 2015 sobre la ciencia a nivel mundial sólo el 28% de los investigadores en el mundo son mujeres y en el caso colombiano a partir de la última convocatoria de categorización de investigadores de Minciencias el 37% son mujeres.\n",
     "OBJETIVO": "Analizar el rol de la mujer en la ciencia como aporte en el desarrollo de la Ciencia la Tecnología y la Innovación CTI en Colombia",
@@ -1165,7 +1249,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 5. Igualdad de género"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 5. Igualdad de género",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "yamaru.chirinosar@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4162,
@@ -1218,11 +1306,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "- Objetivo 8. Crecimiento económico sostenible"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "- Objetivo 8. Crecimiento económico sostenible",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "alejandra.lopezch@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "camilo.higuitaca@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4179,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2019/08/23/19/41/israel-4426387_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2014/09/15/22/23/stack-letters-447579_1280.jpg",
     "NOMBRE_PROYECTO": "Escritura, memoria e imaginarios en la literatura judía antigua: las tablas celestes en la tradición henóquica",
     "RESUMEN": "El proyecto propone una relectura de la figura de las tablas celestes en la literatura del judaísmo antiguo. En varias etapas. 1) revisión del status quaestionis, resaltando las interpretaciones y problemáticas más sobresalientes y creando un marco teórico al cual se uniría una comprensión de la escritura y la memoria como configuradores de imaginarios sociales y dispositivos de crítica. 2) selección de los lugares donde aparece la metáfora. Y 3) interpretación textual.",
     "OBJETIVO": "Identificar la figura de las tablas celestes como un dispositivo narrativo en el que se integran memoria, escritura e imaginarios.",
@@ -1271,7 +1363,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 10. Desigualdad global/ Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 10. Desigualdad global/ Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "juan.hernandezva@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4092,
@@ -1324,7 +1420,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "david.zuluagame@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4081,
@@ -1377,11 +1477,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "ODS  5. Igualdad de género."
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "ODS  5. Igualdad de género.",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "elvigia.cardonazu@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4111,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2019/07/23/22/12/sad-4358747_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2019/02/28/18/46/lake-4026544_1280.jpg",
     "NOMBRE_PROYECTO": "Estrategias alternativas en la promoción de la salud mental en un contexto comunitario de la ciudad de Medellín.",
     "RESUMEN": "Este estudio busca identificar las practicas alternativas que se desarrollan en un contexto comunitario sobre Salud Mental de la ciudad de Medellín. Se inscribe en un enfoque cualitativo con un diseño fenomenológico y como principales técnicas se empleará la observación participante y técnicas interactivas. Se espera aportar a las relaciones entre las estrategias de salud mental en contextos comunitaria y los desarrollos teóricos de la academia.",
     "OBJETIVO": "Fortalecer una estrategia de promoción de la salud mental implementada por una organización en un contexto comunitario de la ciudad de Medellín.",
@@ -1430,11 +1534,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "juan.menjuraac@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "manuel.lopezar@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4065,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2015/07/17/22/42/startup-849804_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2017/10/04/09/56/chemist-2815640_1280.jpg",
     "NOMBRE_PROYECTO": "Estudio experimental de propiedades termodinámicas en compuestos polares y no polares",
     "RESUMEN": "En este trabajo se pretende estudiar las variaciones de las propiedades termodinámicas dependiendo de la temperatura y presión en sistemas formados por sustancias polares y no polares. Este estudio contempla realizar un diseño de experimentos que posibilite obtener las propiedades termodinámicas como la densidad y la viscosidad con la menor incertidumbre.",
     "OBJETIVO": "Estudiar experimentalmente las propiedades termodinámicas en sistemas polares y no polares",
@@ -1483,11 +1591,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "luis.cardonapa@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4070,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2019/05/12/15/07/electric-4198293_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2013/11/20/23/00/test-214185_1280.jpg",
     "NOMBRE_PROYECTO": "Estudio teórico de las propiedades electrónicas y termodinámicas de líquidos iónicos de imidazol: un enfoque computacional.",
     "RESUMEN": "En este estudio, se utilizará la teoría de la función de la densidad (DFT)  para calcular y analizar las propiedades electrónicas y termodinámicas de los líquidos iónicos de imidazol. La DFT se utilizará para calcular la densidad electrónica, la energía de ionización, la afinidad electrónica, analizar la interacción molecular, la entalpía de formación y la energía libre de Gibbs.",
     "OBJETIVO": "Realizar un estudio teórico detallado de las propiedades electrónicas y termodinámicas de los líquidos iónicos de imidazol utilizando un enfoque computacional, con el fin de proporcionar una comprensión más profunda de las propiedades fundamentales de estos compuestos y su potencial aplicación en diversos campos industriales.",
@@ -1536,7 +1648,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 13. Cambio climático"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 13. Cambio climático",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "franklin.ferrarogo@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4108,
@@ -1589,7 +1705,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "edison.castrillonan@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "cesar.ariasmo@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4066,
@@ -1642,7 +1762,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 5. Igualdad de género"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 5. Igualdad de género",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "natalia.baenaro@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4080,
@@ -1695,7 +1819,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "antonio.oliverade@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4146,
@@ -1748,7 +1876,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": " Objetivo 8. Crecimiento económico sostenible y Objetivo 12. Producción y consumo respetuoso"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": " Objetivo 8. Crecimiento económico sostenible y Objetivo 12. Producción y consumo respetuoso",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "sasha.aranzazuhe@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "luis.quinterora@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4171,
@@ -1801,7 +1933,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": "CADAVID RAMIREZ MARIA ELENA",
     "ADSCRIPCION_TIPO_3": "COINVESTIGADOR",
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 11. Ciudades y asentamientos\nObjetivo 17. Alianza Mundial para los ODS"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 11. Ciudades y asentamientos\nObjetivo 17. Alianza Mundial para los ODS",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "claudia.herreraca@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "manuel.castrillonme@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": "\nmaria.cadavidra@amigo.edu.co"
   },
   {
     "ID_PROYECTO": 4104,
@@ -1854,7 +1990,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": "GOMEZ AGUDELO DANY STEVEN",
     "ADSCRIPCION_TIPO_3": "INVESTIGADOR PRINCIPAL",
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "- Objetivo 16. Sociedad justa e inclusiva - Objetivo 17. Alianza Mundial para los ODS"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "- Objetivo 16. Sociedad justa e inclusiva - Objetivo 17. Alianza Mundial para los ODS",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "jorge.ricoza@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": "\nsebasbolivar1@hotmail.com",
+    "ADSCRIPCION_CORREO_3": "dany.gomezag@amigo.edu.co"
   },
   {
     "ID_PROYECTO": 4085,
@@ -1907,7 +2047,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "olber.arangoto@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4060,
@@ -1960,7 +2104,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 12. Producción y consumo respetuoso"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 12. Producción y consumo respetuoso",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "yamile.cardonaam@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4105,
@@ -2013,7 +2161,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo de Desarrollo Sostenible (ODS) 8, que busca promover el \"Crecimiento Económico Sostenible\", y con el ODS 10, que se enfoca en reducir la \"Desigualdad Global\"."
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo de Desarrollo Sostenible (ODS) 8, que busca promover el \"Crecimiento Económico Sostenible\", y con el ODS 10, que se enfoca en reducir la \"Desigualdad Global\".",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "julian.alvarezre@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "paulo.arboledara@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4145,
@@ -2066,7 +2218,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 1. Fin de la poblreza\nObjetivo 8. Crecimiento económico sostenible"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 1. Fin de la poblreza\nObjetivo 8. Crecimiento económico sostenible",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "hernando.zabalasa@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "elias.vallejomo@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4057,
@@ -2119,7 +2275,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 8. Crecimiento económico sostenible"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 8. Crecimiento económico sostenible",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "luis.quinterora@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4178,
@@ -2172,7 +2332,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 10. Desigualdad global/Y Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 10. Desigualdad global/Y Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "juan.hernandezva@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "manuel.gomezer@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4109,
@@ -2225,7 +2389,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "marlon.vanegasro@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4126,
@@ -2278,7 +2446,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "\nmelissa.montanezho@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4132,
@@ -2331,7 +2503,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "oscar.pelaezhe@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4142,
@@ -2384,7 +2560,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 8. Crecimiento económico sostenible"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 8. Crecimiento económico sostenible",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "yamaru.chirinosar@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4136,
@@ -2437,7 +2617,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": "VARGAS MESA ENID DANIELA",
     "ADSCRIPCION_TIPO_3": "COINVESTIGADOR",
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "\nnatalia.guzmanat@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "carmen.martinezde@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_3": "enid.vargasme@amigo.edu.co"
   },
   {
     "ID_PROYECTO": 4061,
@@ -2490,7 +2674,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 7. Energía asequible y limpia"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 7. Energía asequible y limpia",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "victor.gilve@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4174,
@@ -2543,7 +2731,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria y Objetivo 10: Desigualdad global"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria y Objetivo 10: Desigualdad global",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "\nelina.londonoal@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "maria.pintoar@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4072,
@@ -2596,7 +2788,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "roberto.guevaraca@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4190,
@@ -2649,7 +2845,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria  \nObjetivo 10. Desigualdad global                     \nObjetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria  \nObjetivo 10. Desigualdad global                     \nObjetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "johana.barrenecheco@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": "\njulian.duquero@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4180,
@@ -2702,7 +2902,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "juan.londonobe@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4073,
@@ -2755,7 +2959,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "diego.uribesu@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4067,
@@ -2808,7 +3016,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "luis.cardonapa@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4112,
@@ -2861,7 +3073,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 2. Lucha contra el hambre y mejora de la agricultura sostenible"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 2. Lucha contra el hambre y mejora de la agricultura sostenible",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "lina.suarezre@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "melissa.lopezme@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4058,
@@ -2914,7 +3130,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 9. Infraestructuras resilientes",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "edgar.chavarriagami@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 9998,
@@ -2967,7 +3187,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 8. Crecimiento económico sostenible"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 8. Crecimiento económico sostenible",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "candy.chamorrogo@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "leidy.rodriguezpi@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4138,
@@ -3020,7 +3244,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 1. Fin de la pobreza"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 1. Fin de la pobreza",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "estelio.anguloan@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4079,
@@ -3073,7 +3301,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": " ODS 1 - Fin de la Pobreza, ODS 3 - Salud y Bienestar y el ODS 16 - Paz, Justicia e Instituciones Fuertes."
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": " ODS 1 - Fin de la Pobreza, ODS 3 - Salud y Bienestar y el ODS 16 - Paz, Justicia e Instituciones Fuertes.",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "paulo.arboledara@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "dwina.henaoor@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4119,
@@ -3126,7 +3358,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "jose.abadol@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "carlos.salazarga@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4120,
@@ -3179,7 +3415,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "magda.diazal@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4166,
@@ -3232,7 +3472,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "natalia.alzateal@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4155,
@@ -3285,7 +3529,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "carlos.berriome@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": "jorge.ricoza@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4183,
@@ -3338,7 +3586,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva "
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva ",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "andres.castrillonca@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "yulieth.ruizpu@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4189,
@@ -3391,7 +3643,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "ana.alzatean@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4097,
@@ -3444,12 +3700,16 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 3. Vida sana y bienestar",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "daniel.landinezma@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4187,
     "IMAGEN": "https://cdn.pixabay.com/photo/2017/04/12/08/31/master-2223965_640.jpg",
-    "NOMBRE_PROYECTO": "Relatos de memoria sonora y visual del obrero de Fabricato y su incidencia en la población de los territorios Bellanitas, ",
+    "NOMBRE_PROYECTO": "Relatos de memoria sonora y visual del obrero de Fabricato y su incidencia en la población de los territorios Bellanitas",
     "RESUMEN": "Lo sonoro y lo visual son formatos que generalmente conectan con audiencias y que de forma ágil se desempeñan como una herramienta valiosa para inmortalizar la memoria y el patrimonio de la humanidad. Este proyecto de investigación tiene como finalidad describir a través de relatos de memoria sonora y visual la incidencia del obrero de FABRICATO en la población de los territorios bellanitas y su identidad cultural, política y religiosa. ",
     "OBJETIVO": "Describir a través de una serie de podcast y la construcción de retratos, los discursos de memoria sonora y visual y  la incidencia del obrero de FABRICATO en la población de los territorios bellanitas y su identidad cultural, política y religiosa",
     "GRUPO_INVESTIGACION_1": "URBANITAS",
@@ -3497,7 +3757,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "marlon.echavarriaro@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "wilmar.gomezmo@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4113,
@@ -3550,7 +3814,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 13. Cambio climático"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 13. Cambio climático",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "katy.milanot@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4103,
@@ -3603,7 +3871,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 5. Igualdad de género -Objetivo 16. Sociedad justa e inclusiva"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 5. Igualdad de género -Objetivo 16. Sociedad justa e inclusiva",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "sindy.gallegota@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "jenny.acevedova@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4059,
@@ -3656,11 +3928,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 12. Producción y consumo respetuoso"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 12. Producción y consumo respetuoso",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "edgar.chavarriagami@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4125,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2017/05/18/07/51/rope-2322774_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2017/06/07/20/56/hug-2381652_1280.jpg",
     "NOMBRE_PROYECTO": "Traumas psicosociales en las Violencias Basadas en Género. Una mirada transdisciplinar.",
     "RESUMEN": "Los estudios de las violencias contra las mujeres han demostrado la multiplicidad de perspectivas para abordarlas. Incluso, la definición de este fenómeno se constituye en sí misma en una problemática, puesto que, dependiendo del lugar de enunciación, la definición muta. Sin embargo, hay coincidencias en determinar que estas acciones son diversas, se relacionan con múltiples factores de riesgo, tienen que ver con relaciones de poder y dañan a una parte importante de la humanidad.",
     "OBJETIVO": "Develar los traumas psicosociales que se generan en las víctimas que viven violencias basadas en género a partir de un estudio transdiscipinar.",
@@ -3709,7 +3985,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 5. Igualdad de género"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 5. Igualdad de género",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "nicolasa.durandu@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "magda.diazal@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4188,
@@ -3762,11 +4042,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "Objetivo 4. Educación igualitaria",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "farley.rojasre@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "jackeline.guerrago@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4084,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2013/10/31/14/10/tank-203496_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2017/08/28/19/12/international-2690990_1280.jpg",
     "NOMBRE_PROYECTO": "Uso de la fuerza aplicable a los conflictos armados y a otros contexto de violencia en Colombia, a partir de la firma del Acuerdo de Paz suscrito entre el Gobierno Nacional y las FARC-EP, 2016",
     "RESUMEN": "El Acuerdo de Paz, 2016, generó expectativas sobre la disminución de la violencia y enfrentamientos en territorio colombiano. Sin embargo, la situación humanitaria de los últimos años demuestra lo contrario. Actualmente, se desarrollan 7 conflictos armados y se evidencian otros contextos de violencia que exigen una respuesta estatal, la cual debe ser aplicada en apego a las normas internacionales sobre el uso de la fuerza.",
     "OBJETIVO": "Contrastar los estándares internacionales de uso de la fuerza con el marco jurídico interno aplicable a los conflictos armados y a otros contexto de violencia que se presentan en Colombia, 2016-2023. ",
@@ -3815,7 +4099,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": " Objetivo 16, el cual está encaminado a “Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y crear instituciones eficaces, responsables e inclusivas a todos los niveles”."
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": " Objetivo 16, el cual está encaminado a “Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y crear instituciones eficaces, responsables e inclusivas a todos los niveles”.",
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "ana.roldanvi@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4210,
@@ -3868,7 +4156,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "maria.agudelova@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4212,
@@ -3921,7 +4213,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "cesar.carmonaca@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 9999,
@@ -3974,11 +4270,15 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "ODS 8: Trabajo decente y crecimiento económico\nODS 9: Industria, innovación e infraestructura\nODS 12: Producción y consumo responsables"
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": "ODS 8: Trabajo decente y crecimiento económico\nODS 9: Industria, innovación e infraestructura\nODS 12: Producción y consumo responsables",
+    "DISPONIBLE": true,
+    "ADSCRIPCION_CORREO_1": "maria.guerrerool@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4226,
-    "IMAGEN": "https://cdn.pixabay.com/photo/2016/11/19/21/01/analysis-1841158_640.jpg",
+    "IMAGEN": "https://cdn.pixabay.com/photo/2016/07/11/20/34/lost-places-1510592_1280.jpg",
     "NOMBRE_PROYECTO": "Memorias de la gráfica popular y la rotulación manual en el centro-norte de Medellín - Fase II",
     "RESUMEN": "A partir del proceso logrado en el año 2023 con la recolección de muestras y registro fotográfico de imagen gráfica popular y rotulación manual en la zona centro norte de Medellín, se propone una extensión del proyecto que permita cubrir las comunas 6, 7, 12, 13 y 16, donde también se han identificado formas de expresión publicitaria creadas manualmente",
     "OBJETIVO": "Nutrir y consolidar un producto editorial con el registro recogido hasta el momento y complementarlo con el estudio de las muestras que existan en las comunas 12, 13, 7 y 16 de Medellín, para así, extender el alcance del proyecto de investigación y aportar de manera mas completa a la memoria visual y estética de la ciudad",
@@ -4027,7 +4327,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "veronica.moralesga@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4225,
@@ -4080,7 +4384,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "\nalexander.hernandezma@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4224,
@@ -4133,7 +4441,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "\naura.florianmo@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4223,
@@ -4186,7 +4498,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "\nyuliana.gomezpa@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4222,
@@ -4239,7 +4555,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "diana.hernandezsa@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "vanessa.sanchezan@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4221,
@@ -4292,7 +4612,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "INVESTIGADOR PRINCIPAL",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "\nnestor.combarizaca@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "\nconrado.cardonaos@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4220,
@@ -4345,7 +4669,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": "COINVESTIGADOR",
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "luz.agudeloto@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": "leidy.jaramilloej@amigo.edu.co",
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4215,
@@ -4398,7 +4726,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "andres.naranjort@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4214,
@@ -4451,7 +4783,11 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "\njuan.ocampoen@amigo.edu.co",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   },
   {
     "ID_PROYECTO": 4144,
@@ -4504,6 +4840,10 @@ export const data : Project[] = [
     "ADSCRIPCION_TIPO_2": null,
     "ADSCRIPCION_3": null,
     "ADSCRIPCION_TIPO_3": null,
-    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null
+    "OBJETIVOS_DESARROLLO_SOSTENIBLE": null,
+    "DISPONIBLE": false,
+    "ADSCRIPCION_CORREO_1": "edison.viverosch@amigo.edu.co ",
+    "ADSCRIPCION_CORREO_2": null,
+    "ADSCRIPCION_CORREO_3": null
   }
 ]

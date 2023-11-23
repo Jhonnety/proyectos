@@ -16,7 +16,7 @@ export const Projects = () => {
 
       <div className='proyectsContainer'>
 
-        <h2 className='proyectsIntroduction'>Estos son los proyectos que se han sumado a esta iniciativa</h2>
+        <h2 className='proyectsIntroduction'>Selecciona la facultad o centro regional para revisar la información de los proyectos de investigación para el año 2024. Además, busca el ícono naranja que indica aquellos proyectos en los que puedes participar como auxiliar de investigación.</h2>
         
         <div className='facultadFilter'>
 

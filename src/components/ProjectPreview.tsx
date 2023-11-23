@@ -13,6 +13,9 @@ export const ProjectPreview: React.FC<ProjectPreviewProps> = ({ project }) => {
         <div className="backgrounGray"></div>
         <img loading="lazy" className="ProjectPreviewImagen" src={project.IMAGEN + ""} alt="Portada del proyecto" />
         <h2 className="ProjectPreviewTitle">{project.NOMBRE_PROYECTO}</h2>
+        {project.DISPONIBLE &&
+          <h2 className="researcherHelpers"><i className="fa-solid fa-telescope"></i>Proyecto en el que puedes participar como auxiliar de investigación</h2>
+        }
       </div>
     </NavLink>
   )

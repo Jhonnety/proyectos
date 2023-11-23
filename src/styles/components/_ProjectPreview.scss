@@ -10,7 +10,21 @@
     margin: 20px;
     color: black;
     position: relative;
+    padding-bottom: 30px;
     cursor: pointer;
+
+    .researcherHelpers{
+        color:black;
+        font-weight: 400;
+        font-size: 2vmin;
+        width: 80%;
+        margin: 5px 10% 0 10%;
+
+        i{
+            color: #FF7F00;
+            margin-right: 10px;
+        }
+    }
 
     .ProjectPreviewImagen {
         width: 100%;
@@ -20,9 +34,8 @@
 
     .ProjectPreviewTitle {
         width: 84%;
-        font-size: 1rem;
+        font-size: 2vmin;
         margin: 20px 8% 0 8%;
-        padding-bottom: 30px;
     }
 
     .backgrounGray{

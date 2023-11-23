@@ -50,4 +50,8 @@ export interface Project {
     "ADSCRIPCION_3": string | null,
     "ADSCRIPCION_TIPO_3": string | null,
     "OBJETIVOS_DESARROLLO_SOSTENIBLE":  string | null,
+    "DISPONIBLE" : Boolean,
+    "ADSCRIPCION_CORREO_1": string | null,
+    "ADSCRIPCION_CORREO_2":string | null,
+    "ADSCRIPCION_CORREO_3": string | null
 }

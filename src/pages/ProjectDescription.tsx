@@ -21,13 +21,14 @@ const capitalizeWords = (str: string) => {
   return result;
 };
 const extractNumbers = (str: string) => {
-  let foundNumbers = str.match(/\d+/g);
-  if (foundNumbers) {
-    let numbers = foundNumbers.map(number => parseInt(number, 10));
-    return numbers;
-  } else {
-    return [];
+  if (str != null) {
+    let foundNumbers = str.match(/\d+/g);
+    if (foundNumbers) {
+      let numbers = foundNumbers.map(number => parseInt(number, 10));
+      return numbers;
+    }
   }
+  return [];
 };
 
 
@@ -74,6 +75,38 @@ export const ProjectDescription = () => {
               </div>
 
               <div className="adscriptionsContainer">
+                <div className="adscriptions">
+
+                  {project.DISPONIBLE &&
+                    <div className="auxiliarsContainer">
+                      <i className="fa-light fa-telescope"></i>
+                      <h3><b>¿Quieres ser auxiliar de investigación en este proyecto?</b> Envía un correo a los investigadores para iniciar el proceso.</h3>
+                    </div>
+                  }
+
+                  <h3>Adscripciones: </h3>
+                  {[...Array(11).keys()].map((index: number) => {
+                    const programKey = `PROGRAMA_${index + 1}` as keyof Project;
+                    const unitKey = `PROGRAMA_UNIDAD_${index + 1}` as keyof Project;
+
+                    const program = project[programKey] as string;
+                    const unit = project[unitKey] as string;
+
+                    if (program && unit) {
+                      return (
+                        <div key={index}>
+                          <div className="line"></div>
+                          {program && <p><b>Programa:</b> {capitalizeFirstLetter(program)}</p>}
+                          {unit && <p><b>Facultad:</b> {capitalizeFirstLetter(unit)}</p>}
+                        </div>
+                      );
+                    }
+                    return null;
+                  })}
+
+                </div>
+
+
                 <div className="researchersGroupsContainer">
                   <h3>Grupos de investigacion: </h3>
 
@@ -95,9 +128,11 @@ export const ProjectDescription = () => {
                   {[...Array(11).keys()].map((index: number) => {
                     const researcher_key = `ADSCRIPCION_${index + 1}` as keyof Project;
                     const kind_researcher_key = `ADSCRIPCION_TIPO_${index + 1}` as keyof Project;
+                    const email_researcher_key = `ADSCRIPCION_CORREO_${index + 1}` as keyof Project;
 
                     const researcher = project[researcher_key] as string;
                     const kind_researcher = project[kind_researcher_key] as string;
+                    const email_researcher = project[email_researcher_key] as string;
 
                     if (researcher && kind_researcher) {
                       return (
@@ -105,6 +140,7 @@ export const ProjectDescription = () => {
                           <div className="line"></div>
                           {researcher && <p><b>Nombre:</b> {capitalizeWords(researcher)}</p>}
                           {kind_researcher && <p><b>Tipo:</b> {capitalizeFirstLetter(kind_researcher)}</p>}
+                          {email_researcher && <p><b>Correo:</b> {email_researcher}</p>}
                         </div>
                       );
                     }
@@ -112,48 +148,25 @@ export const ProjectDescription = () => {
                   })}
 
                 </div>
-                <div className="adscriptions">
-                  <h3>Adscripciones: </h3>
-                  {[...Array(11).keys()].map((index: number) => {
-                    const programKey = `PROGRAMA_${index + 1}` as keyof Project;
-                    const unitKey = `PROGRAMA_UNIDAD_${index + 1}` as keyof Project;
+              </div>
 
-                    const program = project[programKey] as string;
-                    const unit = project[unitKey] as string;
 
-                    if (program && unit) {
-                      return (
-                        <div key={index}>
-                          <div className="line"></div>
-                          {program && <p><b>Programa:</b> {capitalizeFirstLetter(program)}</p>}
-                          {unit && <p><b>Facultad:</b> {capitalizeFirstLetter(unit)}</p>}
-                        </div>
-                      );
+              {project.OBJETIVOS_DESARROLLO_SOSTENIBLE != null &&
+                <div className="odsContainer">
+                  <h3>ODS:</h3>
+                  <div className="ods">
+
+                    {
+                      extractNumbers(project.OBJETIVOS_DESARROLLO_SOSTENIBLE as string).map((x: number) => {
+                        return (<img className="odsItem" src={ODS[`ods${x}`]} />)
+                      })
                     }
-                    return null;
-                  })}
 
 
-                </div>
-              </div>
-              <div className="researchersContainer">
-
-              </div>
-
-              <div className="odsContainer">
-                <h3>ODS:</h3>
-                <div className="ods">
-
-                  {
-                    extractNumbers(project.OBJETIVOS_DESARROLLO_SOSTENIBLE as string).map((x: number) => {
-                      return (<img className="odsItem" src={ODS[`ods${x}`]} />)
-                    })
-                  }
-
+                  </div>
 
                 </div>
-
-              </div>
+              }
 
             </div>
 
