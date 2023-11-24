@@ -66,11 +66,15 @@
         margin-top: 20px;
         justify-content: space-around;
 
-        img {
+        .lazyLoadContainer {
             width: 40%;
-            background-size: cover;
             height: auto;
-            aspect-ratio: 16/9;
+
+            img {
+                width: 100%;
+                background-size: cover;
+                height: auto;
+            }
         }
 
         .informationProjectContainer {
@@ -135,7 +139,7 @@
                 box-sizing: border-box;
                 border-radius: 14px;
                 margin-bottom: 20px;
-                
+
 
                 i {
                     font-size: 5vmin;
@@ -208,8 +212,9 @@
     align-items: center;
     justify-content: center;
 
-
     .titleNoExist {
+        width: 100%;
+        text-align: center;
         font-size: 4rem;
         margin-bottom: 20px;
         font-weight: bold;
@@ -241,7 +246,7 @@
             display: block;
             width: 100%;
 
-            img {
+            .lazyLoadContainer {
                 width: 90%;
                 margin: 0 5%;
             }

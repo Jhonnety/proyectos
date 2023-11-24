@@ -44,8 +44,13 @@ export const ProjectDescription = () => {
 
   const project = filteredProjects[0]
 
-  const groups = [project.GRUPO_INVESTIGACION_1,
-  project.GRUPO_INVESTIGACION_2, project.ADSCRIPCION_3]
+
+  var groups = [""]
+
+  if (project) {
+    groups = [project.GRUPO_INVESTIGACION_1 as string,
+    project.GRUPO_INVESTIGACION_2 as string, project.ADSCRIPCION_3 as string]
+  }
 
   return (
     <>
@@ -66,7 +71,7 @@ export const ProjectDescription = () => {
             <div className="projectBody">
               <div className="videoObjectiveContainer">
 
-                <LazyLoad>
+                <LazyLoad className="lazyLoadContainer">
                   <img loading="lazy" src={project.IMAGEN as string} alt="Imagen del proyecto." />
                 </LazyLoad>
                 <div className="informationProjectContainer">
