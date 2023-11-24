@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import ODS from '../assets/icons/ODS'
-
+import LazyLoad from 'react-lazy-load';
 import { data } from "../utils/Data";
 
 import { Project } from "../models/ProjectModel";
@@ -53,8 +53,10 @@ export const ProjectDescription = () => {
         <div className="projectDescriptionMainContainer">
 
           <div className="imageMain">
-            <img src={facultadPsicologia} className='imagenCentroInvestigaciones' />
-            <h1 className='projectTitle'>Titulo del proyecto:</h1>
+            <LazyLoad>
+              <img src={facultadPsicologia} className='imagenCentroInvestigaciones' />
+            </LazyLoad>
+            <h1 className='projectTitle'>Título del proyecto:</h1>
           </div>
 
           <div className='proyectsContainer'>
@@ -64,7 +66,9 @@ export const ProjectDescription = () => {
             <div className="projectBody">
               <div className="videoObjectiveContainer">
 
-                <img src={project.IMAGEN as string} alt="Imagen del proyecto." />
+                <LazyLoad>
+                  <img loading="lazy" src={project.IMAGEN as string} alt="Imagen del proyecto." />
+                </LazyLoad>
                 <div className="informationProjectContainer">
                   <h3>Resumen:</h3>
                   <p>{project.RESUMEN}</p>
@@ -108,7 +112,7 @@ export const ProjectDescription = () => {
 
 
                 <div className="researchersGroupsContainer">
-                  <h3>Grupos de investigacion: </h3>
+                  <h3>Grupos de investigación: </h3>
 
                   {
                     groups.map((valor, indice, array) => {
@@ -124,7 +128,7 @@ export const ProjectDescription = () => {
                     })
                   }
 
-                  <h3 className="marginTop">Investidores: </h3>
+                  <h3 className="marginTop">Investigadores : </h3>
                   {[...Array(11).keys()].map((index: number) => {
                     const researcher_key = `ADSCRIPCION_${index + 1}` as keyof Project;
                     const kind_researcher_key = `ADSCRIPCION_TIPO_${index + 1}` as keyof Project;
@@ -158,7 +162,7 @@ export const ProjectDescription = () => {
 
                     {
                       extractNumbers(project.OBJETIVOS_DESARROLLO_SOSTENIBLE as string).map((x: number) => {
-                        return (<img className="odsItem" src={ODS[`ods${x}`]} />)
+                        return (<LazyLoad key={x}><img loading="lazy" className="odsItem" src={ODS[`ods${x}`]} /></LazyLoad>)
                       })
                     }
 
