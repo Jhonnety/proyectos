@@ -5,31 +5,7 @@ import { data } from "../utils/Data";
 
 import { Project } from "../models/ProjectModel";
 import facultadPsicologia from '../assets/images/facultadpsicologia.png'
-
-const capitalizeFirstLetter = (str: string) => {
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-}
-
-const capitalizeWords = (str: string) => {
-  let lowercaseString = str.toLowerCase();
-  let words = lowercaseString.split(' ');
-  let capitalizedWords = words.map(function (word) {
-    return word.charAt(0).toUpperCase() + word.slice(1);
-  });
-  let result = capitalizedWords.join(' ');
-
-  return result;
-};
-const extractNumbers = (str: string) => {
-  if (str != null) {
-    let foundNumbers = str.match(/\d+/g);
-    if (foundNumbers) {
-      let numbers = foundNumbers.map(number => parseInt(number, 10));
-      return numbers;
-    }
-  }
-  return [];
-};
+import { capitalizeFirstLetter, capitalizeWords, extractNumbers, transformString } from "../utils/Functions";
 
 
 
@@ -49,7 +25,7 @@ export const ProjectDescription = () => {
 
   if (project) {
     groups = [project.GRUPO_INVESTIGACION_1 as string,
-    project.GRUPO_INVESTIGACION_2 as string, project.ADSCRIPCION_3 as string]
+    project.GRUPO_INVESTIGACION_2 as string, project.GRUPO_INVESTIGACION_3 as string]
   }
 
   return (
@@ -105,8 +81,8 @@ export const ProjectDescription = () => {
                       return (
                         <div key={index}>
                           <div className="line"></div>
-                          {program && <p><b>Programa:</b> {capitalizeFirstLetter(program)}</p>}
-                          {unit && <p><b>Facultad:</b> {capitalizeFirstLetter(unit)}</p>}
+                          {program && <p><b>Programa:</b> {transformString(program)}</p>}
+                          {unit && <p><b>Facultad:</b> {transformString(unit)}</p>}
                         </div>
                       );
                     }
@@ -125,7 +101,7 @@ export const ProjectDescription = () => {
                         return (
                           <div key={indice}>
                             <div className="line"></div>
-                            <p>{capitalizeFirstLetter(valor as string)}</p>
+                            <p>{(valor as string).toUpperCase()}</p>
                           </div>
                         );
                       }

@@ -17,82 +17,84 @@ const removeAccents = (str: string) => {
 };
 
 const normalizeString = (str: string) => {
-  return removeAccents(str.toLowerCase());
+  const stringWithoutAccents = removeAccents(str.toLowerCase());
+  const stringWithoutSpaces = stringWithoutAccents.replace(/\s+/g, ''); // Elimina espacios en blanco
+  return stringWithoutSpaces;
 };
 
 
 export const ProjectsList = () => {
-    const location = useLocation();
-    const queryParams = queryString.parse(location.search);
-    const filterUrl = queryParams.filter || '';
-    const pageUrl = queryParams.page || 1;
+  const location = useLocation();
+  const queryParams = queryString.parse(location.search);
+  const filterUrl = queryParams.filter || '';
+  const pageUrl = queryParams.page || 1;
 
-    const [flag, setFlag] = useState(true)
-    const [dataFiltered, setDataFiltered] = useState(data)
+  const [flag, setFlag] = useState(true)
+  const [dataFiltered, setDataFiltered] = useState(data)
 
-    
-    const itemsPerPage = 9;
-    const [currentPage, setCurrentPage] = useState(parseInt(pageUrl as string));
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-  
-    const projectsToDisplay = dataFiltered.slice(startIndex, endIndex);
-  
-    const handlePageChange = (newPage:any) => {
-      setCurrentPage(newPage);
-    };
 
-    useEffect(() => {
+  const itemsPerPage = 9;
+  const [currentPage, setCurrentPage] = useState(parseInt(pageUrl as string));
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
 
-      if(filterUrl == ''){
-        setDataFiltered(data)
-      }
-      else{
-        filters.map((filter:Filter)=>{
-          if(filter.filterName == filterUrl){
+  const projectsToDisplay = dataFiltered.slice(startIndex, endIndex);
 
-            if(filter.type == "facultad"){
-              const newData = data.filter((project: Project) => {
-                return Array.from({ length: 11 }, (_, index) => index + 1).some((unit) => {
-                  const key = `PROGRAMA_UNIDAD_${unit}` as keyof Project;
-                  return normalizeString(project[key]+"") == normalizeString(filter.excelName);
-                });
-              });
-              setDataFiltered(newData)
-            }else{
-
-              const newData = data.filter((project: Project) => {
-                return Array.from({ length: 11 }, (_, index) => index + 1)
-                  .some((region) => {
-                    const key = `PROGRAMA_REGION_${region}` as keyof Project;
-                    return project[key] != null && normalizeString(project[key]+"") != normalizeString(filter.excelName);
-                  });
-              });
-                          
-              setDataFiltered(newData)
-            }
-
-          }
-        })
-      }
-      if(flag) setFlag(false)
-      else setCurrentPage(1)
-    }, [filterUrl])
-
-    return (
-      <div className="projectsListMainContainer">
-        {projectsToDisplay.map((project: Project) => (
-          <LazyLoad key={project.ID_PROYECTO}>
-            <ProjectPreview key={project.ID_PROYECTO} project={project} />
-          </LazyLoad>
-        ))}
-  
-        <Pagination
-          totalItems={dataFiltered.length}
-          itemsPerPage={itemsPerPage}
-          currentPage={currentPage}
-          onPageChange={handlePageChange}
-        />
-      </div>
-    );
+  const handlePageChange = (newPage: any) => {
+    setCurrentPage(newPage);
   };
+
+  useEffect(() => {
+
+    if (filterUrl == '') {
+      setDataFiltered(data)
+    }
+    else {
+      filters.map((filter: Filter) => {
+        if (filter.filterName == filterUrl) {
+
+          if (filter.type == "facultad") {
+            const newData = data.filter((project: Project) => {
+              return Array.from({ length: 11 }, (_, index) => index + 1).some((unit) => {
+                const key = `PROGRAMA_UNIDAD_${unit}` as keyof Project;
+                return normalizeString(project[key] + "") == normalizeString(filter.excelName);
+              });
+            });
+            setDataFiltered(newData)
+          } else {
+
+            const newData = data.filter((project: Project) => {
+              return Array.from({ length: 11 }, (_, index) => index + 1)
+                .some((region) => {
+                  const key = `PROGRAMA_REGION_${region}` as keyof Project;
+                  return project[key] != null && normalizeString(project[key] + "") != normalizeString(filter.excelName);
+                });
+            });
+
+            setDataFiltered(newData)
+          }
+
+        }
+      })
+    }
+    if (flag) setFlag(false)
+    else setCurrentPage(1)
+  }, [filterUrl])
+
+  return (
+    <div className="projectsListMainContainer">
+      {projectsToDisplay.map((project: Project) => (
+        <LazyLoad key={project.ID_PROYECTO}>
+          <ProjectPreview key={project.ID_PROYECTO} project={project} />
+        </LazyLoad>
+      ))}
+
+      <Pagination
+        totalItems={dataFiltered.length}
+        itemsPerPage={itemsPerPage}
+        currentPage={currentPage}
+        onPageChange={handlePageChange}
+      />
+    </div>
+  );
+};

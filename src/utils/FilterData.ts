@@ -14,7 +14,7 @@ export const filters : Filter[] = [{
     classIcon : "fa-light fa-hands-holding-dollar",
     faculdTitle : "Ciencias Administrativas, Económicas y Contables",
     type: "facultad",
-    excelName : "FACULTAD DE CIENCIAS ADMINISTRATIVAS, ECONOMICAS Y CONTABLES"
+    excelName : "FACULTAD DE CIENCIAS ADMINISTRATIVAS, ECONÓMICAS Y CONTABLES"
 },
 {
     color : "#2682A3",
@@ -30,7 +30,7 @@ export const filters : Filter[] = [{
     classIcon : "fa-light fa-landmark",
     faculdTitle : "Derecho y Ciencias Políticas",
     type: "facultad",
-    excelName : "FACULTAD DE DERECHO Y CIENCIAS POLITICAS"
+    excelName : "FACULTAD DE DERECHO Y CIENCIAS POLÍTICAS"
 },
 {
     color : "#659C7B",
@@ -60,7 +60,7 @@ export const filters : Filter[] = [{
     color : "#136D30",
     filterName : "centros_regionales",
     classIcon : "fa-regular fa-map-location-dot",
-    faculdTitle : "Centros regionales",
+    faculdTitle : "Centros Regionales",
     type: "region",
     excelName : "medellin"
 }]
